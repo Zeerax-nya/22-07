@@ -1,0 +1,11 @@
+Складывайте сюда фотографии и называйте их так, как ожидает index.html:
+
+- venue-1.jpg, venue-2.jpg     — фото места проведения (секция «Место проведения»)
+- story-1.jpg, story-2.jpg, story-3.jpg — фото для секции «Наша история»
+
+После добавления файла замените соответствующий блок
+<figure class="photo-placeholder">...</figure> в index.html на:
+
+<img class="photo" src="assets/images/ИМЯ_ФАЙЛА.jpg" alt="Описание фото">
+
+Этот файл можно удалить.
